@@ -11,7 +11,7 @@
     --color2: #000000;
     --color3: #1F5374;
     --color4: #979A9A;
-    --color5: #5499C7;
+    --color5: #3f789e;
 }
 body{
     font-size: 18px;
@@ -84,6 +84,10 @@ body{
     display: flex;
     flex-direction: row;
 }
+.boton_enviar:hover{
+    cursor: pointer;
+    background-color: var(--color5);
+}
 .boton_enviar p{
     color: var(--color1);
     font-weight: bold;
@@ -117,4 +121,3 @@ body{
         margin-left: 1em;
     }
 }
-
